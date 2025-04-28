@@ -16,6 +16,12 @@ This is a simple **Todo API** built with **Node.js**, **Express**, and **SQLite*
 
 ---
 
+## Deployed Version
+
+You can access the deployed version of the Todo API on Glitch using the following URL:
+
+[Deployed Website](https://fuchsia-low-helmet.glitch.me)
+
 ## Installation
 
 To run this project locally, follow the steps below:
@@ -25,8 +31,8 @@ To run this project locally, follow the steps below:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/zoebowe/todos-API-stateless.git
-cd todos-API-stateless
+git clone https://github.com/your-username/todo-api.git
+cd todo-api
 ```
 
 ### 2. Install dependencies
@@ -135,7 +141,7 @@ Your deployed app URL will be available on Glitch after deployment.
 Here is the basic structure of the project:
 
 ```
-todos-API-stateless/
+todo-api/
   ├─ node_modules/           # Node.js dependencies
   ├─ public/                 # Static files (HTML, CSS, JS)
   ├─ todos.db               # SQLite database file (stored in the data folder in Glitch)
@@ -144,15 +150,8 @@ todos-API-stateless/
   ├─ package-lock.json      # Lock file for consistent installs
   └─ README.md              # Project documentation
 ```
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## Author
 
-- **Your Name** - [GitHub Profile](https://github.com/zoebowe)
+- **Zoe Elias** - [GitHub Profile](https://github.com/zoebowe)
