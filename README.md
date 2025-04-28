@@ -25,8 +25,8 @@ To run this project locally, follow the steps below:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/todo-api.git
-cd todo-api
+git clone https://github.com/zoebowe/todos-API-stateless.git
+cd todos-API-stateless
 ```
 
 ### 2. Install dependencies
@@ -135,7 +135,7 @@ Your deployed app URL will be available on Glitch after deployment.
 Here is the basic structure of the project:
 
 ```
-todo-api/
+todos-API-stateless/
   ├─ node_modules/           # Node.js dependencies
   ├─ public/                 # Static files (HTML, CSS, JS)
   ├─ todos.db               # SQLite database file (stored in the data folder in Glitch)
@@ -155,4 +155,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-- **Your Name** - [GitHub Profile](https://github.com/your-username)
+- **Your Name** - [GitHub Profile](https://github.com/zoebowe)
