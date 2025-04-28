@@ -1,0 +1,105 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Global Variables */
+:root {
+  --bg-color: #f0f0f0;
+  --box-shadow: rgba(0, 0, 0, 0.1);
+  --display-btn: #4CAF50;
+  --delete-btn: #f44336;
+  --submit-btn: #2196F3;
+}
+
+/* Reset Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  padding: 20px;
+  background-color: var(--bg-color);
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+/* Block Styling for Inputs and Buttons */
+.block {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+/* Button Styling */
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Display Todos Button */
+#displayTodos {
+  background-color: var(--display-btn);
+  color: white;
+}
+
+/* Submit Todo Button */
+#submitTodo {
+  background-color: var(--submit-btn);
+  color: white;
+}
+
+/* Delete Todo Button */
+#deleteTodo {
+  background-color: var(--delete-btn);
+  color: white;
+}
+
+/* Button Hover Effects */
+button:hover {
+  transform: translateY(-2px);
+}
+
+#displayTodos:hover {
+  background-color: #45a049;
+}
+
+#submitTodo:hover {
+  background-color: #1e88e5;
+}
+
+#deleteTodo:hover {
+  background-color: #e53935;
+}
+
+/* Input Styling */
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Responsive Design - Ensure everything looks good on mobile */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
