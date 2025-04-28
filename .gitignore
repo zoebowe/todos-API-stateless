@@ -23,3 +23,6 @@ build/
 # Ignore IDE configuration files
 .vscode/
 .idea/
+
+# Ignore data folder
+data/
